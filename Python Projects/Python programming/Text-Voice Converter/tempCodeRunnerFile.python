@@ -1,0 +1,13 @@
+def printt(start):
+    if start==-5:
+        return
+    for i in range(start,0,-1):
+        print(i,end="")
+    print()
+    if start<1:
+
+        return printt(start-1)
+    else:
+        return printt(start-1)
+
+printt(5)
